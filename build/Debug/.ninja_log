@@ -1,0 +1,23 @@
+# ninja log v7
+2	104	1776376516576810789	CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.obj	5ed05833d99c10d3
+2	188	1776376516576695330	CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj	f472044107efac27
+2	207	1776376516576578330	CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj	3dda30bad1371ba0
+1	297	1776376516575579116	CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj	618c11c2b9ffda5d
+1	307	1776376516576300953	CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj	e88102a010857a8b
+2	308	1776376516576457079	CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj	d4618372a516c1a2
+4	314	1776376516578472674	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj	1ef03e4afdb457c7
+4	317	1776376516579169177	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj	b0812686ace304b8
+2	355	1776376516576977624	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32g4xx.c.obj	9aec18fdcfc456c2
+4	361	1776376516578665925	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj	f8d53f9f8dac364c
+188	387	1776376516762849355	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj	1d194d5bfc77f461
+2	421	1776376516577268875	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj	e825d1ed0e1bfec8
+207	422	1776376516781909709	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj	d4a1923a7a4051d3
+104	446	1776376516679123311	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj	fd09a5c9540d1bee
+4	448	1776376516579010885	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj	59649e79ed9a1e56
+308	458	1776376516882432471	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj	1a481b40463bf527
+297	472	1776376516872002372	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj	fd9e8ea7d2355ac
+314	473	1776376516888771047	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj	2a0ae661c8ecb76f
+307	485	1776376516881737509	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj	1a121b14077dac1c
+317	486	1776376516891864731	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj	3ea864ec157ca40
+355	491	1776376516930400693	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj	f0e50133fce7abbc
+491	541	1776376517065547687	bms_gui_demo.elf	d5f4c898687a60d1

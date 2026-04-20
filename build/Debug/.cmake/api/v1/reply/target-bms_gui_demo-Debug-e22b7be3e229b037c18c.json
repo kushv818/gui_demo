@@ -53,7 +53,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11"
+					"fragment" : " -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11"
 				}
 			],
 			"defines" : 
@@ -75,23 +75,23 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Core/Inc"
+					"path" : "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Core/Inc"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc"
+					"path" : "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include"
+					"path" : "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+					"path" : "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -116,7 +116,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -x assembler-with-cpp -MMD -MP -g"
+					"fragment" : " -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -x assembler-with-cpp -MMD -MP -g"
 				}
 			],
 			"defines" : 
@@ -138,23 +138,23 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Core/Inc"
+					"path" : "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Core/Inc"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc"
+					"path" : "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include"
+					"path" : "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+					"path" : "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",
@@ -177,11 +177,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3",
+				"fragment" : "-mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T \"/Users/kushvashishtha/DFR/bms_gui_demo/STM32G491XX_FLASH.ld\" --specs=nano.specs -Wl,-Map=bms_gui_demo.map -Wl,--gc-sections -Wl,--print-memory-usage",
+				"fragment" : "-mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T \"/Users/kushvashishtha/gui_demo/STM32G491XX_FLASH.ld\" --specs=nano.specs -Wl,-Map=bms_gui_demo.map -Wl,--gc-sections -Wl,--print-memory-usage",
 				"role" : "flags"
 			},
 			{

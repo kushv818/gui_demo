@@ -7,13 +7,13 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/kushvashishtha/DFR/bms_gui_demo/CMakeLists.txt"
+  "/Users/kushvashishtha/gui_demo/CMakeLists.txt"
   "CMakeFiles/4.1.1/CMakeASMCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeCCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeSystem.cmake"
-  "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/gcc-arm-none-eabi.cmake"
-  "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/CMakeLists.txt"
+  "/Users/kushvashishtha/gui_demo/cmake/gcc-arm-none-eabi.cmake"
+  "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/CMakeLists.txt"
   "/opt/homebrew/share/cmake/Modules/CMakeASMCompiler.cmake.in"
   "/opt/homebrew/share/cmake/Modules/CMakeASMInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCCompiler.cmake.in"

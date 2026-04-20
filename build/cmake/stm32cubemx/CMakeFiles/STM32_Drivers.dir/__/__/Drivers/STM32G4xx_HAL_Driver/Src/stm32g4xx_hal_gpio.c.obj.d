@@ -1,12 +1,12 @@
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: \
- /Users/kushvashishtha/DFR/bms_gui_demo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Core/Inc/stm32g4xx_hal_conf.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g491xx.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include/core_cm4.h \
+ /Users/kushvashishtha/gui_demo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Core/Inc/stm32g4xx_hal_conf.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g491xx.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include/core_cm4.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
@@ -14,23 +14,23 @@ cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Drive
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_version.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_compiler.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_gcc.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include/mpu_armv7.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_version.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_compiler.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_gcc.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include/mpu_armv7.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_fdcan.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
- /Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_fdcan.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
+ /Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h

@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kushvashishtha/DFR/bms_gui_demo
+CMAKE_SOURCE_DIR = /Users/kushvashishtha/gui_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kushvashishtha/DFR/bms_gui_demo/build
+CMAKE_BINARY_DIR = /Users/kushvashishtha/gui_demo/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bms_gui_demo.dir/depend.make
@@ -73,87 +73,87 @@ CMakeFiles/bms_gui_demo.dir/codegen:
 .PHONY : CMakeFiles/bms_gui_demo.dir/codegen
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj: CMakeFiles/bms_gui_demo.dir/flags.make
-CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj: /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/main.c
+CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj: /Users/kushvashishtha/gui_demo/Core/Src/main.c
 CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj: CMakeFiles/bms_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj -MF CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj.d -o CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj -c /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kushvashishtha/gui_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj -MF CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj.d -o CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj -c /Users/kushvashishtha/gui_demo/Core/Src/main.c
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/main.c > CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.i
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kushvashishtha/gui_demo/Core/Src/main.c > CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.i
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/main.c -o CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.s
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kushvashishtha/gui_demo/Core/Src/main.c -o CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.s
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj: CMakeFiles/bms_gui_demo.dir/flags.make
-CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj: /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/stm32g4xx_it.c
+CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj: /Users/kushvashishtha/gui_demo/Core/Src/stm32g4xx_it.c
 CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj: CMakeFiles/bms_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj -MF CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj.d -o CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj -c /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/stm32g4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kushvashishtha/gui_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj -MF CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj.d -o CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj -c /Users/kushvashishtha/gui_demo/Core/Src/stm32g4xx_it.c
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/stm32g4xx_it.c > CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.i
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kushvashishtha/gui_demo/Core/Src/stm32g4xx_it.c > CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.i
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/stm32g4xx_it.c -o CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.s
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kushvashishtha/gui_demo/Core/Src/stm32g4xx_it.c -o CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.s
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj: CMakeFiles/bms_gui_demo.dir/flags.make
-CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj: /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/stm32g4xx_hal_msp.c
+CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj: /Users/kushvashishtha/gui_demo/Core/Src/stm32g4xx_hal_msp.c
 CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj: CMakeFiles/bms_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj -MF CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj.d -o CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj -c /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/stm32g4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kushvashishtha/gui_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj -MF CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj.d -o CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj -c /Users/kushvashishtha/gui_demo/Core/Src/stm32g4xx_hal_msp.c
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/stm32g4xx_hal_msp.c > CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.i
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kushvashishtha/gui_demo/Core/Src/stm32g4xx_hal_msp.c > CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.i
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/stm32g4xx_hal_msp.c -o CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.s
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kushvashishtha/gui_demo/Core/Src/stm32g4xx_hal_msp.c -o CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.s
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj: CMakeFiles/bms_gui_demo.dir/flags.make
-CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj: /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/sysmem.c
+CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj: /Users/kushvashishtha/gui_demo/Core/Src/sysmem.c
 CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj: CMakeFiles/bms_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj -MF CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj.d -o CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj -c /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/sysmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kushvashishtha/gui_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj -MF CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj.d -o CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj -c /Users/kushvashishtha/gui_demo/Core/Src/sysmem.c
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/sysmem.c > CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.i
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kushvashishtha/gui_demo/Core/Src/sysmem.c > CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.i
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/sysmem.c -o CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.s
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kushvashishtha/gui_demo/Core/Src/sysmem.c -o CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.s
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj: CMakeFiles/bms_gui_demo.dir/flags.make
-CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj: /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/syscalls.c
+CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj: /Users/kushvashishtha/gui_demo/Core/Src/syscalls.c
 CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj: CMakeFiles/bms_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj -MF CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj.d -o CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj -c /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kushvashishtha/gui_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj -MF CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj.d -o CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj -c /Users/kushvashishtha/gui_demo/Core/Src/syscalls.c
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/syscalls.c > CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.i
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kushvashishtha/gui_demo/Core/Src/syscalls.c > CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.i
 
 CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/syscalls.c -o CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.s
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kushvashishtha/gui_demo/Core/Src/syscalls.c -o CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.s
 
 CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.obj: CMakeFiles/bms_gui_demo.dir/flags.make
-CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.obj: /Users/kushvashishtha/DFR/bms_gui_demo/startup_stm32g491xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building ASM object CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.obj -c /Users/kushvashishtha/DFR/bms_gui_demo/startup_stm32g491xx.s
+CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.obj: /Users/kushvashishtha/gui_demo/startup_stm32g491xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kushvashishtha/gui_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building ASM object CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.obj -c /Users/kushvashishtha/gui_demo/startup_stm32g491xx.s
 
 CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/kushvashishtha/DFR/bms_gui_demo/startup_stm32g491xx.s > CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.i
+	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/kushvashishtha/gui_demo/startup_stm32g491xx.s > CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.i
 
 CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/kushvashishtha/DFR/bms_gui_demo/startup_stm32g491xx.s -o CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.s
+	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/kushvashishtha/gui_demo/startup_stm32g491xx.s -o CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.s
 
 # Object files for target bms_gui_demo
 bms_gui_demo_OBJECTS = \
@@ -166,21 +166,21 @@ bms_gui_demo_OBJECTS = \
 
 # External object files for target bms_gui_demo
 bms_gui_demo_EXTERNAL_OBJECTS = \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32g4xx.c.obj" \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj" \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj" \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj" \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj" \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj" \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj" \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj" \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj" \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj" \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj" \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj" \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj" \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj" \
-"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj"
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32g4xx.c.obj" \
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj" \
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj" \
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj" \
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj" \
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj" \
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj" \
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj" \
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj" \
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj" \
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj" \
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj" \
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj" \
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj" \
+"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj"
 
 bms_gui_demo.elf: CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj
 bms_gui_demo.elf: CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj
@@ -205,7 +205,7 @@ bms_gui_demo.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/S
 bms_gui_demo.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
 bms_gui_demo.elf: CMakeFiles/bms_gui_demo.dir/build.make
 bms_gui_demo.elf: CMakeFiles/bms_gui_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable bms_gui_demo.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kushvashishtha/gui_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable bms_gui_demo.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bms_gui_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -217,6 +217,6 @@ CMakeFiles/bms_gui_demo.dir/clean:
 .PHONY : CMakeFiles/bms_gui_demo.dir/clean
 
 CMakeFiles/bms_gui_demo.dir/depend:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kushvashishtha/DFR/bms_gui_demo /Users/kushvashishtha/DFR/bms_gui_demo /Users/kushvashishtha/DFR/bms_gui_demo/build /Users/kushvashishtha/DFR/bms_gui_demo/build /Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles/bms_gui_demo.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/kushvashishtha/gui_demo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kushvashishtha/gui_demo /Users/kushvashishtha/gui_demo /Users/kushvashishtha/gui_demo/build /Users/kushvashishtha/gui_demo/build /Users/kushvashishtha/gui_demo/build/CMakeFiles/bms_gui_demo.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/bms_gui_demo.dir/depend
 

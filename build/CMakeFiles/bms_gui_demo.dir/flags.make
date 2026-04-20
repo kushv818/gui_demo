@@ -5,13 +5,13 @@
 # compile C with /opt/homebrew/bin/arm-none-eabi-gcc
 ASM_DEFINES = -DDEBUG -DSTM32G491xx -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -I/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Core/Inc -I/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc -I/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+ASM_INCLUDES = -I/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Core/Inc -I/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc -I/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include
 
 ASM_FLAGS =  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -x assembler-with-cpp -MMD -MP -g
 
 C_DEFINES = -DDEBUG -DSTM32G491xx -DUSE_HAL_DRIVER
 
-C_INCLUDES = -I/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Core/Inc -I/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc -I/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+C_INCLUDES = -I/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Core/Inc -I/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc -I/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include
 
 C_FLAGS =  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
 

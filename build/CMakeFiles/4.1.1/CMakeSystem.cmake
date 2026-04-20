@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Darwin")
 set(CMAKE_HOST_SYSTEM_VERSION "24.5.0")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "arm64")
 
-include("/Users/kushvashishtha/DFR/bms_gui_demo/cmake/gcc-arm-none-eabi.cmake")
+include("/Users/kushvashishtha/gui_demo/cmake/gcc-arm-none-eabi.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

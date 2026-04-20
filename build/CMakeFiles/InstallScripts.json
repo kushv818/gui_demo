@@ -1,8 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake_install.cmake",
-		"/Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx/cmake_install.cmake"
+		"/Users/kushvashishtha/gui_demo/build/cmake_install.cmake",
+		"/Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

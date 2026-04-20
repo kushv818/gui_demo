@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/kushvashishtha/DFR/bms_gui_demo/build/Debug"
+			"value" : "/Users/kushvashishtha/gui_demo/build/Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/kushvashishtha/DFR/bms_gui_demo/build/Debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/kushvashishtha/gui_demo/build/Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/kushvashishtha/DFR/bms_gui_demo"
+			"value" : "/Users/kushvashishtha/gui_demo"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1267,11 +1267,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "The CMake toolchain file"
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/gcc-arm-none-eabi.cmake"
+			"type" : "FILEPATH",
+			"value" : "/Users/kushvashishtha/gui_demo/cmake/gcc-arm-none-eabi.cmake"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1311,7 +1311,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/kushvashishtha/DFR/bms_gui_demo/build/Debug"
+			"value" : "/Users/kushvashishtha/gui_demo/build/Debug"
 		},
 		{
 			"name" : "bms_gui_demo_IS_TOP_LEVEL",
@@ -1335,7 +1335,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/kushvashishtha/DFR/bms_gui_demo"
+			"value" : "/Users/kushvashishtha/gui_demo"
 		}
 	],
 	"kind" : "cache",

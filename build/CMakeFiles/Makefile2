@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kushvashishtha/DFR/bms_gui_demo
+CMAKE_SOURCE_DIR = /Users/kushvashishtha/gui_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kushvashishtha/DFR/bms_gui_demo/build
+CMAKE_BINARY_DIR = /Users/kushvashishtha/gui_demo/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -107,14 +107,14 @@ cmake/stm32cubemx/clean: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/clean
 CMakeFiles/bms_gui_demo.dir/all: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bms_gui_demo.dir/build.make CMakeFiles/bms_gui_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bms_gui_demo.dir/build.make CMakeFiles/bms_gui_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles --progress-num=16,17,18,19,20,21,22 "Built target bms_gui_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kushvashishtha/gui_demo/build/CMakeFiles --progress-num=16,17,18,19,20,21,22 "Built target bms_gui_demo"
 .PHONY : CMakeFiles/bms_gui_demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bms_gui_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kushvashishtha/gui_demo/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bms_gui_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kushvashishtha/gui_demo/build/CMakeFiles 0
 .PHONY : CMakeFiles/bms_gui_demo.dir/rule
 
 # Convenience name for target.
@@ -124,7 +124,7 @@ bms_gui_demo: CMakeFiles/bms_gui_demo.dir/rule
 # codegen rule for target.
 CMakeFiles/bms_gui_demo.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bms_gui_demo.dir/build.make CMakeFiles/bms_gui_demo.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles --progress-num=16,17,18,19,20,21,22 "Finished codegen for target bms_gui_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kushvashishtha/gui_demo/build/CMakeFiles --progress-num=16,17,18,19,20,21,22 "Finished codegen for target bms_gui_demo"
 .PHONY : CMakeFiles/bms_gui_demo.dir/codegen
 
 # clean rule for target.
@@ -139,14 +139,14 @@ CMakeFiles/bms_gui_demo.dir/clean:
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/depend
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target STM32_Drivers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kushvashishtha/gui_demo/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target STM32_Drivers"
 .PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
 
 # Build rule for subdir invocation for target.
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kushvashishtha/gui_demo/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kushvashishtha/gui_demo/build/CMakeFiles 0
 .PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
 
 # Convenience name for target.
@@ -156,7 +156,7 @@ STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
 # codegen rule for target.
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Finished codegen for target STM32_Drivers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kushvashishtha/gui_demo/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Finished codegen for target STM32_Drivers"
 .PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/codegen
 
 # clean rule for target.

@@ -1,5 +1,5 @@
 CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj: \
- /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/syscalls.c \
+ /Users/kushvashishtha/gui_demo/Core/Src/syscalls.c \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stat.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \

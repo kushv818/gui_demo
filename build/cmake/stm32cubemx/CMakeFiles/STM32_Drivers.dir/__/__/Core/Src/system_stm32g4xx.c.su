@@ -1,2 +1,2 @@
-/Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/system_stm32g4xx.c:181:6:SystemInit	4	static
-/Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/system_stm32g4xx.c:230:6:SystemCoreClockUpdate	32	static
+/Users/kushvashishtha/gui_demo/Core/Src/system_stm32g4xx.c:181:6:SystemInit	4	static
+/Users/kushvashishtha/gui_demo/Core/Src/system_stm32g4xx.c:230:6:SystemCoreClockUpdate	32	static

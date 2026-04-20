@@ -1,3 +1,3 @@
-/Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/stm32g4xx_hal_msp.c:62:6:HAL_MspInit	16	static
-/Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/stm32g4xx_hal_msp.c:91:6:HAL_FDCAN_MspInit	136	static
-/Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/stm32g4xx_hal_msp.c:188:6:HAL_FDCAN_MspDeInit	16	static
+/Users/kushvashishtha/gui_demo/Core/Src/stm32g4xx_hal_msp.c:62:6:HAL_MspInit	16	static
+/Users/kushvashishtha/gui_demo/Core/Src/stm32g4xx_hal_msp.c:91:6:HAL_FDCAN_MspInit	136	static
+/Users/kushvashishtha/gui_demo/Core/Src/stm32g4xx_hal_msp.c:188:6:HAL_FDCAN_MspDeInit	16	static

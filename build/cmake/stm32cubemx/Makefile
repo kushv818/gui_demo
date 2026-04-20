@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kushvashishtha/DFR/bms_gui_demo
+CMAKE_SOURCE_DIR = /Users/kushvashishtha/gui_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kushvashishtha/DFR/bms_gui_demo/build
+CMAKE_BINARY_DIR = /Users/kushvashishtha/gui_demo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles /Users/kushvashishtha/DFR/bms_gui_demo/build/cmake/stm32cubemx//CMakeFiles/progress.marks
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles 0
+	cd /Users/kushvashishtha/gui_demo/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kushvashishtha/gui_demo/build/CMakeFiles /Users/kushvashishtha/gui_demo/build/cmake/stm32cubemx//CMakeFiles/progress.marks
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kushvashishtha/gui_demo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/clean
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/preinstall
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/preinstall
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/kushvashishtha/gui_demo/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
 .PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
 
 # fast build rule for target.
 STM32_Drivers/fast:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
 .PHONY : STM32_Drivers/fast
 
 __/__/Core/Src/system_stm32g4xx.obj: __/__/Core/Src/system_stm32g4xx.c.obj
@@ -135,7 +135,7 @@ __/__/Core/Src/system_stm32g4xx.obj: __/__/Core/Src/system_stm32g4xx.c.obj
 
 # target to build an object file
 __/__/Core/Src/system_stm32g4xx.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32g4xx.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32g4xx.c.obj
 .PHONY : __/__/Core/Src/system_stm32g4xx.c.obj
 
 __/__/Core/Src/system_stm32g4xx.i: __/__/Core/Src/system_stm32g4xx.c.i
@@ -143,7 +143,7 @@ __/__/Core/Src/system_stm32g4xx.i: __/__/Core/Src/system_stm32g4xx.c.i
 
 # target to preprocess a source file
 __/__/Core/Src/system_stm32g4xx.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32g4xx.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32g4xx.c.i
 .PHONY : __/__/Core/Src/system_stm32g4xx.c.i
 
 __/__/Core/Src/system_stm32g4xx.s: __/__/Core/Src/system_stm32g4xx.c.s
@@ -151,7 +151,7 @@ __/__/Core/Src/system_stm32g4xx.s: __/__/Core/Src/system_stm32g4xx.c.s
 
 # target to generate assembly for a file
 __/__/Core/Src/system_stm32g4xx.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32g4xx.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32g4xx.c.s
 .PHONY : __/__/Core/Src/system_stm32g4xx.c.s
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
@@ -159,7 +159,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.obj: __/__/Drivers/STM32G4x
 
 # target to build an object file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.i
@@ -167,7 +167,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.i: __/__/Drivers/STM32G4xx_
 
 # target to preprocess a source file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.i
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.i
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s
@@ -175,7 +175,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.s: __/__/Drivers/STM32G4xx_
 
 # target to generate assembly for a file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
@@ -183,7 +183,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.i
@@ -191,7 +191,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.i
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.i
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.s
@@ -199,7 +199,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.s
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
@@ -207,7 +207,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.obj: __/__/Drivers/STM3
 
 # target to build an object file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.i
@@ -215,7 +215,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.i: __/__/Drivers/STM32G
 
 # target to preprocess a source file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.i
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.i
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.s
@@ -223,7 +223,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.s: __/__/Drivers/STM32G
 
 # target to generate assembly for a file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.s
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj
@@ -231,7 +231,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.i
@@ -239,7 +239,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.i
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.i
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.s
@@ -247,7 +247,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.s
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj
@@ -255,7 +255,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.obj: __/__/Drivers/STM
 
 # target to build an object file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.i
@@ -263,7 +263,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.i: __/__/Drivers/STM32
 
 # target to preprocess a source file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.i
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.i
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.s
@@ -271,7 +271,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.s: __/__/Drivers/STM32
 
 # target to generate assembly for a file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.s
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
@@ -279,7 +279,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.obj: __/__/Drivers/ST
 
 # target to build an object file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.obj
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.i
@@ -287,7 +287,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.i: __/__/Drivers/STM3
 
 # target to preprocess a source file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.i
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.i
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.s
@@ -295,7 +295,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.s: __/__/Drivers/STM3
 
 # target to generate assembly for a file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c.s
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
@@ -303,7 +303,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.obj: __/__/Drivers/ST
 
 # target to build an object file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.i
@@ -311,7 +311,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.i: __/__/Drivers/STM3
 
 # target to preprocess a source file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.i
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.i
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.s
@@ -319,7 +319,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.s: __/__/Drivers/STM3
 
 # target to generate assembly for a file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.s
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
@@ -327,7 +327,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.obj: __/__/Drivers
 
 # target to build an object file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.i
@@ -335,7 +335,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.i: __/__/Drivers/S
 
 # target to preprocess a source file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.i
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.i
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.s
@@ -343,7 +343,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.s: __/__/Drivers/S
 
 # target to generate assembly for a file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.s
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj
@@ -351,7 +351,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.obj: __/__/Dr
 
 # target to build an object file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.i
@@ -359,7 +359,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.i: __/__/Driv
 
 # target to preprocess a source file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.i
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.i
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.s
@@ -367,7 +367,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.s: __/__/Driv
 
 # target to generate assembly for a file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.s
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
@@ -375,7 +375,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.obj: __/__/Drivers/STM
 
 # target to build an object file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.i
@@ -383,7 +383,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.i: __/__/Drivers/STM32
 
 # target to preprocess a source file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.i
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.i
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.s
@@ -391,7 +391,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.s: __/__/Drivers/STM32
 
 # target to generate assembly for a file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.s
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
@@ -399,7 +399,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.obj: __/__/Drivers/STM3
 
 # target to build an object file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.i
@@ -407,7 +407,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.i: __/__/Drivers/STM32G
 
 # target to preprocess a source file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.i
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.i
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.s
@@ -415,7 +415,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.s: __/__/Drivers/STM32G
 
 # target to generate assembly for a file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.s
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
@@ -423,7 +423,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.i
@@ -431,7 +431,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.i
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.i
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.s
@@ -439,7 +439,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.s
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
@@ -447,7 +447,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.obj: __/__/Drivers/STM3
 
 # target to build an object file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.i
@@ -455,7 +455,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.i: __/__/Drivers/STM32G
 
 # target to preprocess a source file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.i
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.i
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.s
@@ -463,7 +463,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.s: __/__/Drivers/STM32G
 
 # target to generate assembly for a file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.s
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.obj: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
@@ -471,7 +471,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.i: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.i
@@ -479,7 +479,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.i:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.i
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.i
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.i
 
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.s: __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.s
@@ -487,7 +487,7 @@ __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.s:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.s
+	cd /Users/kushvashishtha/gui_demo/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.s
 .PHONY : __/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.s
 
 # Help Target
@@ -555,6 +555,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/kushvashishtha/DFR/bms_gui_demo/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/kushvashishtha/gui_demo/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

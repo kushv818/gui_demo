@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/Users/kushvashishtha/DFR/bms_gui_demo/startup_stm32g491xx.s" "/Users/kushvashishtha/DFR/bms_gui_demo/build/CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.obj"
+  "/Users/kushvashishtha/gui_demo/startup_stm32g491xx.s" "/Users/kushvashishtha/gui_demo/build/CMakeFiles/bms_gui_demo.dir/startup_stm32g491xx.s.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -21,20 +21,20 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Core/Inc"
-  "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc"
-  "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"
-  "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include"
-  "/Users/kushvashishtha/DFR/bms_gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Core/Inc"
+  "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc"
+  "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"
+  "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32G4xx/Include"
+  "/Users/kushvashishtha/gui_demo/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/main.c" "CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj.d"
-  "/Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/stm32g4xx_hal_msp.c" "CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj" "gcc" "CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj.d"
-  "/Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/stm32g4xx_it.c" "CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj" "gcc" "CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj.d"
-  "/Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/syscalls.c" "CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj.d"
-  "/Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/sysmem.c" "CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj.d"
+  "/Users/kushvashishtha/gui_demo/Core/Src/main.c" "CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/bms_gui_demo.dir/Core/Src/main.c.obj.d"
+  "/Users/kushvashishtha/gui_demo/Core/Src/stm32g4xx_hal_msp.c" "CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj" "gcc" "CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_hal_msp.c.obj.d"
+  "/Users/kushvashishtha/gui_demo/Core/Src/stm32g4xx_it.c" "CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj" "gcc" "CMakeFiles/bms_gui_demo.dir/Core/Src/stm32g4xx_it.c.obj.d"
+  "/Users/kushvashishtha/gui_demo/Core/Src/syscalls.c" "CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/bms_gui_demo.dir/Core/Src/syscalls.c.obj.d"
+  "/Users/kushvashishtha/gui_demo/Core/Src/sysmem.c" "CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,5 +1,5 @@
 CMakeFiles/bms_gui_demo.dir/Core/Src/sysmem.c.obj: \
- /Users/kushvashishtha/DFR/bms_gui_demo/Core/Src/sysmem.c \
+ /Users/kushvashishtha/gui_demo/Core/Src/sysmem.c \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/errno.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/errno.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \

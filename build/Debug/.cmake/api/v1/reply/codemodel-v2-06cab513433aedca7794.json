@@ -60,14 +60,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "STM32_Drivers::@768a070a0fe75716b479",
-					"jsonFile" : "target-STM32_Drivers-Debug-cd1afbf9f5862743aa83.json",
+					"jsonFile" : "target-STM32_Drivers-Debug-5f7e59860e4681d4fb1d.json",
 					"name" : "STM32_Drivers",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "bms_gui_demo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-bms_gui_demo-Debug-4a8a49202cba475e072a.json",
+					"jsonFile" : "target-bms_gui_demo-Debug-e22b7be3e229b037c18c.json",
 					"name" : "bms_gui_demo",
 					"projectIndex" : 0
 				}
@@ -77,8 +77,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/kushvashishtha/DFR/bms_gui_demo/build/Debug",
-		"source" : "/Users/kushvashishtha/DFR/bms_gui_demo"
+		"build" : "/Users/kushvashishtha/gui_demo/build/Debug",
+		"source" : "/Users/kushvashishtha/gui_demo"
 	},
 	"version" : 
 	{
